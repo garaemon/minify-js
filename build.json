@@ -1,0 +1,12 @@
+{
+    "closure_compiler": "closurecompiler/compiler.jar",
+    "less": [{
+        "input_files": ["styles.less"],
+        "output_file": "style.css",
+        "output_min_file": "style.min.css"
+     }],
+    "javascript": [{
+        "input_files": ["jquery-1.7.2.min.js", "sample.js"],
+        "output_file": "title.min.js"
+    }]
+}
